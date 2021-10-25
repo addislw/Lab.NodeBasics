@@ -1,6 +1,2 @@
-let ex = require('./fileB'); 
-
-console.log(ex.cats); 
-
-
-
+const exportsFromFileB = require("./fileB");
+console.log(exportsFromFileB);
